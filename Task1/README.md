@@ -32,4 +32,9 @@ The saveTasks() function is straightforward but essential. It takes the tasks ar
 The loadTasks() function runs when the app first loads. It retrieves the saved task data from localStorage using getItem(), parses it from JSON back into an array with JSON.parse(), and then calls renderTasks() to display the saved tasks. It includes a conditional check to ensure it only loads if data actually exists. This setup enables your app to remember its state across sessions.
 
 
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/fd76fed7495e8baac3637ac6fa36daaee7bc7cc7/Task1/Screenshot%202025-07-11%20112934.png)
+
+
+The document type declaration for HTML5, followed by the opening <html> tag with the language set to English. The <head> section includes metadata such as the character set, viewport settings for responsive design, and the title of the webpage set to "Todo List." There is also a script tag that asynchronously links to an external JavaScript file named "script.js," which likely contains the functionality for the todo app. In the <body>, there is an input field for users to add a new task, accompanied by a button labeled "Add" that triggers a function named addTask() when clicked. Finally, an unordered list (<ul>) is included with an id of "tasklist," where the tasks will presumably be displayed once added.
+
 
