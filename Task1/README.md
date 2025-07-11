@@ -38,3 +38,24 @@ The loadTasks() function runs when the app first loads. It retrieves the saved t
 The document type declaration for HTML5, followed by the opening <html> tag with the language set to English. The <head> section includes metadata such as the character set, viewport settings for responsive design, and the title of the webpage set to "Todo List." There is also a script tag that asynchronously links to an external JavaScript file named "script.js," which likely contains the functionality for the todo app. In the <body>, there is an input field for users to add a new task, accompanied by a button labeled "Add" that triggers a function named addTask() when clicked. Finally, an unordered list is included with an id of "tasklist," where the tasks will presumably be displayed once added.
 
 
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/66aa7908eb74c700c4dd44f1a9ebc51a28812754/Task1/first.png)
+
+When someone opens the index.html file, the page displays a clean and simple todo list interface. The screen features a prominent header that reads "TO DO LIST," along with an input field for users to type in new tasks, labeled with a placeholder "Add a new task." Adjacent to the input field is an "Add" button, allowing users to submit their tasks.
+
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/66aa7908eb74c700c4dd44f1a9ebc51a28812754/Task1/third.png)
+
+When someone enters a task in the provided input box and clicks the "Add" button, the page updates to reflect the newly added task immediately below the input field. 
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/66aa7908eb74c700c4dd44f1a9ebc51a28812754/Task1/fourth.png)
+
+Each task is displayed with a checkbox labeled "Complete," allowing users to easily mark tasks as completed.
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/66aa7908eb74c700c4dd44f1a9ebc51a28812754/Task1/fifth.png)
+
+When click the Edit button it shows as the image and modify what the user wants then click save to make change of the task.
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/66aa7908eb74c700c4dd44f1a9ebc51a28812754/Task1/six.png)
+
+If we click the delete button it will delete that task immediately.
+
