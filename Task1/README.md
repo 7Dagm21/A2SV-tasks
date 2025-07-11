@@ -9,7 +9,9 @@ Declare a variable named tasks and initialize it as an empty array. And the buil
 The addTask() function handles creating a new task. When the user types into the input field and clicks "Add," this function grabs that input using getElementById, trims any whitespace, and ensures it’s not empty. If valid, it adds the task to the tasks array using push(). It then calls saveTasks() to store the updated array in localStorage, and renderTasks() to update the displayed list. This function shows your use of DOM manipulation, basic array operations, conditional logic, and storage handling.
 
 
-![image alt]
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/31b01553fd1d528c60f76a3148797cce9364ad4a/Task1/Screenshot%202025-07-11%20113849.png)
+
+This function is responsible for displaying the current task list on the screen. It first clears the existing task list in the DOM, then uses a forEach() loop to iterate through the tasks array. For each task, it dynamically creates a list item (<li>) and appends "Edit" and "Delete" buttons with their respective event handlers. This function demonstrates dynamic HTML creation using JavaScript, event handling through onclick, and a clean re-rendering pattern to keep the UI in sync with your data.
 
 
 
