@@ -25,7 +25,20 @@ function renderTasks() {
 
   tasks.forEach((task, index) => {
     const li = document.createElement("li");
-    li.textContent = task.text;
+    
+    const checkbox = document.createElement("input");
+    checkbox.type = "checkbox";
+    checkbox.onclick = function () {
+      li.classList.toggle("strikethrough", this.checked);
+    };
+
+
+    const taskText = document.createElement("span");
+    taskText.textContent = task.text;
+
+    li.appendChild(checkbox);
+    li.appendChild(taskText);
+
 
     const editButton = document.createElement("button");
     editButton.textContent = "Edit";
