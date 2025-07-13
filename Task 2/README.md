@@ -43,14 +43,14 @@ TODOLIST
 
 Function Overview
 
-     Function Name         Purpose                                                   
-    -------------------  --------------------------------------------------------- 
-      addTask()            Adds a new task to the list and updates the UI            
-      renderTasks()        Loops through all tasks and displays them dynamically     
-      editTask(index)      Replaces the task with an input to edit and save changes  
-      deleteTask(index)    Removes a task at a given index from the array            
-      saveTasks()          Saves the current task array to localStorage as JSON    
-      loadTasks()          Loads saved tasks from localStorage when the page loads 
+      Function Name               Purpose                                                   
+      -------------------        --------------------------------------------------------- 
+      addTask()                   Adds a new task to the list and updates the UI            
+      renderTasks()               Loops through all tasks and displays them dynamically     
+      editTask(index:number)      Replaces the task with an input to edit and save changes  
+      deleteTask(index:number)    Removes a task at a given index from the array            
+      saveTasks()                 Saves the current task array to localStorage as JSON    
+      loadTasks()                 Loads saved tasks from localStorage when the page loads 
 
 Page preview
 
