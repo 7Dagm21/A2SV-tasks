@@ -4,7 +4,11 @@ Getting Started
 
 1. Clone Repository
 
-2. Open in browser
+       git clone https://github.com/7Dagm21/A2SV-tasks.git
+
+       cd Task 2
+
+3. Open in browser
    
         open index.html file
 
