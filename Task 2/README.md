@@ -1,1 +1,50 @@
+TO DO LIST APP 
+
+Getting Started
+
+1. Clone Repository
+
+2. Open in browser
+   
+        open index.html file
+
+		 
+✅ Features
+
+     Add new tasks via input field
+
+     Edit existing tasks inline with a save button
+
+     Mark tasks as complete using a checkbox
+
+     Delete tasks immediately
+
+     Save tasks persistently in localStorage
+
+     Automatically load tasks on page load
+
+     Uses TypeScript for strict typing and safer code
+
+
+TODOLIST
+ 
+     │
+     ├── dist/                  # Compiled JavaScript output
+     │   └── index.js           # Output file from index.ts
+     │
+     ├── src/                   # Source code files
+     │   ├── style              # Stylesheets(style.css)
+     │   ├── index              # TypeScript source (index.ts)
+     │   ├── index.html         # HTML entry point with embedded JS
+
+Function Overview
+
+     Function Name         Purpose                                                   
+    -------------------  --------------------------------------------------------- 
+      addTask()            Adds a new task to the list and updates the UI            
+      renderTasks()        Loops through all tasks and displays them dynamically     
+      editTask(index)      Replaces the task with an input to edit and save changes  
+      deleteTask(index)    Removes a task at a given index from the array            
+      saveTasks()          Saves the current task array to localStorage as JSON    
+      loadTasks()          Loads saved tasks from localStorage when the page loads 
 
