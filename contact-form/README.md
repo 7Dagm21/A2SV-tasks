@@ -6,7 +6,7 @@ Getting Started
 
    
        git clone https://github.com/7Dagm21/A2SV-tasks.git
-       cd contact-form
+       cd A2SV-tasks/contact-form
 2.	Install dependencies
 
    
