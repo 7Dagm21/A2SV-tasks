@@ -6,7 +6,7 @@ Getting Started
 
        git clone https://github.com/7Dagm21/A2SV-tasks.git
 
-       cd Task1
+       cd A2SV-tasks/Task1
 
 2. Open in browser
 
