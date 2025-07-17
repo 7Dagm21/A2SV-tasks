@@ -5,7 +5,7 @@ Getting Started
 1. Clone the repository
 
        git clone https://github.com/7Dagm21/A2SV-tasks.git
-       cd react-app
+       cd A2SV-tasks/react-app
 
 
 3. Install dependencies
