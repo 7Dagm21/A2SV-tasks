@@ -30,7 +30,7 @@ A modern, secure user authentication application built with Next.js 15, TypeScri
     ├──Authentication-app/
        ├── app/                          # Next.js App Router pages
        │   ├── api/
-       │   │   └── auth/[...nextauth]/   # NextAuth.js API routes
+       │   │   └── auth/nextauth-catchall/   # NextAuth.js API routes
        │   │       └── route.ts          # Authentication configuration
        │   ├── dashboard/               # Protected dashboard page
        │   │   └── page.tsx             # Dashboard UI (/dashboard)
