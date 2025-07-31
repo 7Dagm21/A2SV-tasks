@@ -73,7 +73,7 @@ A modern, secure user authentication application built with Next.js 15, TypeScri
 
 1. Clone the repository
 
-       git clone <repository-url>
+       git clone https://github.com/7Dagm21/A2SV-tasks.git
        cd Authentication-app
    
 
@@ -104,6 +104,10 @@ Verify email
 ![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/d89f693d5a8ba6923e613408e9a1b799ffa0d547/Authentication-app/verify%20email.png)
 
 Login
+
+Example:
+email:dagmawityoseph0@gmail.com
+password:Dag@1234
 
 ![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/d89f693d5a8ba6923e613408e9a1b799ffa0d547/Authentication-app/login.png)
 
