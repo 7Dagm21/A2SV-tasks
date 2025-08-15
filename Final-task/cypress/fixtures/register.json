@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "message": "Registered",
+  "data": {
+    "user": {
+      "id": "user-123",
+      "name": "Test User",
+      "email": "testuser@example.com",
+      "role": "user",
+      "profileComplete": false
+    },
+    "accessToken": "fake-access-token",
+    "refreshToken": "fake-refresh-token"
+  }
+}
