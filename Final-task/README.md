@@ -23,11 +23,8 @@ Use this as a template / reference for structuring feature contexts (Auth / Book
 
 ```bash
 # HTTPS
-git clone https://github.com/your-org/your-repo.git job-app
-cd job-app
-
-# or SSH
-# git clone git@github.com:your-org/your-repo.git job-app
+git clone https://github.com/7Dagm21/A2SV-tasks.git
+cd Final-task
 
 # Install dependencies
 pnpm install   # or npm install
@@ -128,3 +125,38 @@ Interactive runner:
 ```bash
 pnpm e2e:open
 ```
+
+Landing page
+
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/1a2435cec57065773b3b30182477a05113af0287/Final-task/cypress/screenshots/Landing%20page.png)
+
+
+signin page
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/1a2435cec57065773b3b30182477a05113af0287/Final-task/cypress/screenshots/signin%20page.png)
+
+
+After signin 
+example:dagmawityoseph0@gmail.com  password:Dag@1234
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/1a2435cec57065773b3b30182477a05113af0287/Final-task/cypress/screenshots/after%20signin.png)
+
+
+Jest test
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/1a2435cec57065773b3b30182477a05113af0287/Final-task/cypress/screenshots/jest%20test%20(2).png)
+
+Cypress tests
+
+Auth test
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/1a2435cec57065773b3b30182477a05113af0287/Final-task/cypress/screenshots/auth%20test%20by%20cypress.png)
+
+Bookmark test
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/1a2435cec57065773b3b30182477a05113af0287/Final-task/cypress/screenshots/bookmark%20test%20by%20cypress.png)
+
+Humanverification test
+
+![image alt](https://github.com/7Dagm21/A2SV-tasks/blob/1a2435cec57065773b3b30182477a05113af0287/Final-task/cypress/screenshots/human%20verification%20test%20by%20cypress.png)
